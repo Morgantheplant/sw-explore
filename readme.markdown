@@ -1,7 +1,7 @@
-## Staance Widget --Explore
+# Staance Widget --Explore
 
 
-# Getting Started 
+## Getting Started 
 
 ```
 npm i
@@ -15,7 +15,7 @@ The `dev` command compiles the CSS and JS files and runs a watch script so chang
 staic `index.html` page with embedded widgets is served from `/public` at `localhost:8000` when dev is run  
 
 
-# Embed script:
+## Embed script:
 
  `<script data="staance-widget/{aid}/{uid}"></script>`
 
@@ -23,7 +23,7 @@ staic `index.html` page with embedded widgets is served from `/public` at `local
 
 
 
-# Info
+## Info
 
 Entrypoint to the widget is in `main.js` 
 
@@ -34,7 +34,7 @@ Entrypoint to the widget is in `main.js`
 
 
 
-# Folder structure
+## Folder structure
 
 ```
  ├─ ...
