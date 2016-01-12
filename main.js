@@ -1,28 +1,8 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import Widget from './components/Widget'
+import ReactDOM from 'react-dom';
+import Widget from './components/Widget';
 
 // babel transform allows es6 features and module bundling
-
-class App extends React.Component {
-  constructor () {
-    super()
-    this.state = { n: 0 }
-  }
-  render () {
-    return <div>
-      <div> User id: {this.props.uid}</div>
-      <h1>clicked {this.state.n} times</h1>
-      <button onClick={this.handleClick.bind(this)}>click me!</button>
-      <div>Asssertion Number {this.props.aid }</div>
-    </div>
-  }
-  handleClick () {
-    this.setState({ n: this.state.n + 1 })
-  }
-}
-
-
 createWidgets();
 
 function createWidgets(){
@@ -47,7 +27,7 @@ function createWidgets(){
         window['staance-widget-data'].push(el)
         el.parentNode.insertBefore(div, el);
         
-        ReactDOM.render(<App aid={ widget.aid } uid={ widget.uid } />, div)
+        ReactDOM.render(<Widget aid={ widget.aid } uid={ widget.uid } />, div)
       }
     }
   

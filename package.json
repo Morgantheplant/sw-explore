@@ -19,9 +19,9 @@
     "watch": "npm run watch-css & npm run watch-js",
     "build": "npm run build-css & npm run build-js",
     "watch-js": "watchify main.js -t browserify-css -o public/bundle.js -dv",
-    "watch-css": "catw -c 'lessc --clean-css -' 'styles/*.less' -o public/staance-widget-styles.min.css -v",
+    "watch-css": "catw -c 'lessc --clean-css -' 'styles/*.less' -o public/staance-widget-styles.min.css",
     "build-js": "NODE_ENV=production browserify -t browserify-css main.js | uglifyjs -cm > public/bundle.js",
-    "build-css": "lessc --clean-css styles/index.less staance-widget-styles.min.css",
+    "build-css": "lessc --clean-css styles/index.less staance-widget-styles.min.css"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.3.13",
