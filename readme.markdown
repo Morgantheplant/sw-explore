@@ -48,6 +48,8 @@ Entrypoint to the widget is in `main.js`
 ```
 
 
-## References            
-http://shootitlive.com/2012/07/developing-an-embeddable-javascript-widget/
-https://github.com/substack/react-starter-es6-babel
+## References
+
+- http://shootitlive.com/2012/07/developing-an-embeddable-javascript-widget/
+
+- https://github.com/substack/react-starter-es6-babel
