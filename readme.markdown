@@ -17,7 +17,7 @@ staic `index.html` page with embedded widgets is served from `/public` at `local
 
 ## Embed script:
 
- `<script data="staance-widget/{aid}/{uid}"></script>`
+ `<script data="staance-widget/{aid}/{uid}" src="path/to/bundle.js"></script>`
 
  Script creates a single global variable called `"staance-widget-info"` which stores references to all scripts loaded on the page. Scripts are async with each widget only loaded once. Each `<script>` creates a `<div>` tag with a className `"staance-widget"` and unique ID `"staance-widget-id-{random value}"` so external CSS can be applied for sizing/styling/etc.
 
