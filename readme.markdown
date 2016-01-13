@@ -45,8 +45,9 @@ Entrypoint to the widget is in `main.js`
       └─ staance-widget-styles.min.css   // minified output compiled from less
  └─ styles/                              // Less files
  └─ main.js                              // entry point
+```
+
 
 ## References            
 http://shootitlive.com/2012/07/developing-an-embeddable-javascript-widget/
 https://github.com/substack/react-starter-es6-babel
-            
